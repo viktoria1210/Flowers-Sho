@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квітковий магазин "Букет Щастя"</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Квітковий магазин "Букет Щастя"</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#products">Товари</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Створюємо красу для вас</h1>
+        <p>Свіжі квіти на будь-який випадок життя</p>
+        <button class="btn" onclick="showMessage()">Замовити зараз</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Про наш магазин</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Ми працюємо на ринку вже понад 5 років. Пропонуємо свіжі та красиві квіти від найкращих постачальників.</p>
+                <p>Наші флористи створять неповторні букети для ваших свята особливих моментів.</p>
+            </div>
+            <div class="about-image">
+                <!-- Тут буде ваше зображення -->
+                <img src="https://buket.lviv.ua/image/catalog/home/logo-buket.svg" alt="Наш квітковий магазин">
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Наші товари</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://klever-flowers.com/files/product/0/340/340_s.jpg" alt="Букети квітів">
+                <h3>Букети</h3>
+                <p>Готові та індивідуальні букети</p>
+            </div>
+            <div class="product">
+                <img src="https://epicentrk.ua/upload/medialibrary/650/kimnatni_roslini_1.jpg" alt="Кімнатні рослини">
+                <h3>Кімнатні рослини</h3>
+                <p>Для дому та офісу</p>
+            </div>
+            <div class="product">
+                <img src="https://img.joomcdn.net/70e99197eabb5ce09c299027961748a1e65c274e_original.jpeg" alt="Аксесуари">
+                <h3>Аксесуари</h3>
+                <p>Горщики, вази та інше</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <h2>Наші контакти</h2>
+        <div class="contact-info">
+            <p>Адреса: м. Київ, вул. Квіткова, 12</p>
+            <p>Телефон: +380 12 345 6789</p>
+            <p>Графік роботи: Пн-Нд 9:00-20:00</p>
+        </div>
+        <div class="contact-form">
+            <h3>Написати нам</h3>
+            <form id="messageForm">
+                <input type="text" id="name" placeholder="Ваше ім'я">
+                <input type="email" id="email" placeholder="Ваш email">
+                <textarea id="message" placeholder="Ваше повідомлення"></textarea>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Квітковий магазин "Букет Щастя" © 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
